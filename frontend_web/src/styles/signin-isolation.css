@@ -1,0 +1,4 @@
+body.signin-isolation {
+  /* Neutralize app background and typography to avoid cascade interfering with Figma screen */
+  background: transparent !important;
+}
