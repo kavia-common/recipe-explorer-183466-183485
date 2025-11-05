@@ -31,7 +31,7 @@ export function Browse({ favorites, onToggleFavorite }) {
       </Header>
       <div className="content">
         <div style={{ display: "flex", gap: 8, alignItems: "center", marginBottom: 12, flexWrap: "wrap" }}>
-          <span style={{ color: "#6b7280", fontSize: 14 }}>Filter:</span>
+          <span style={{ color: "var(--color-text-muted)", fontSize: 14 }}>Filter:</span>
           <div role="group" aria-label="Category filter" style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
             {categories.map((c) => (
               <Button
@@ -44,7 +44,7 @@ export function Browse({ favorites, onToggleFavorite }) {
               </Button>
             ))}
           </div>
-          <div style={{ marginLeft: "auto", color: "#6b7280", fontSize: 14 }}>
+          <div style={{ marginLeft: "auto", color: "var(--color-text-muted)", fontSize: 14 }}>
             {filtered.length} result{filtered.length !== 1 ? "s" : ""}
           </div>
         </div>

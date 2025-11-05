@@ -37,7 +37,7 @@ export function RecipeCard({ recipe, isFavorite, onToggleFavorite, onOpen }) {
             <Tag key={t}>{t}</Tag>
           ))}
         </div>
-        <div style={{ color: "#6b7280", fontSize: 12 }}>
+        <div style={{ color: "var(--color-text-muted)", fontSize: 12 }}>
           {recipe.timeMinutes} min • {recipe.servings} serving{recipe.servings > 1 ? "s" : ""}
         </div>
       </div>

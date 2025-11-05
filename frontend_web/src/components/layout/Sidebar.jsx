@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 export function Sidebar() {
   /** Left sidebar with brand and navigation links */
   return (
-    <aside className="sidebar ocean-gradient" aria-label="Sidebar Navigation">
+    <aside className="sidebar" aria-label="Sidebar Navigation">
       <div className="brand" aria-label="Recipe Explorer">
         <span className="brand-badge" aria-hidden="true" />
         Recipe Explorer

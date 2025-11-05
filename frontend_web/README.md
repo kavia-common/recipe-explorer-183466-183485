@@ -31,17 +31,16 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 ### Colors
 
-The main brand colors are defined as CSS variables in `src/App.css`:
+Monochrome theme (black & white) is defined in `src/styles/theme.css` using CSS variables:
 
-```css
-:root {
-  --kavia-orange: #E87A41;
-  --kavia-dark: #1A1A1A;
-  --text-color: #ffffff;
-  --text-secondary: rgba(255, 255, 255, 0.7);
-  --border-color: rgba(255, 255, 255, 0.1);
-}
-```
+- primary: #000000
+- secondary: #222222
+- success: #111111
+- error: #000000 (use outline/weight for emphasis)
+- background/surface: #ffffff (with #f5f5f5 for subtle separation)
+- text: #000000
+- border: #e5e5e5
+- focus ring: 2px black outline for WCAG contrast
 
 ### Components
 

@@ -12,7 +12,7 @@ export function Favorites({ favorites, onToggleFavorite }) {
   return (
     <>
       <Header query={""} onQueryChange={() => {}}>
-        <div aria-live="polite" style={{ color: "#6b7280", fontSize: 14 }}>
+        <div aria-live="polite" style={{ color: "var(--color-text-muted)", fontSize: 14 }}>
           {items.length} favorite{items.length !== 1 ? "s" : ""}
         </div>
       </Header>

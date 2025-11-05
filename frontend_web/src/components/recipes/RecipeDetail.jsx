@@ -17,7 +17,7 @@ export function RecipeDetail({ recipe, open, onClose }) {
         <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
           {recipe.tags.map((t) => <Tag key={t}>{t}</Tag>)}
         </div>
-        <div style={{ color: "#6b7280", fontSize: 14 }}>
+        <div style={{ color: "var(--color-text-muted)", fontSize: 14 }}>
           Category: <strong>{recipe.category}</strong> • {recipe.timeMinutes} min • {recipe.servings} serving{recipe.servings>1?"s":""}
         </div>
         <section>
